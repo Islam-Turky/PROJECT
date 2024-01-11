@@ -4,7 +4,9 @@ const Header = () => {
     return(
         <div id="Header" >
             <div id="LOGO">
-                
+                <a href="#">
+                    <img src="/LOGO.png" alt="logo" />
+                </a>
             </div>
             <div id="LINKS">
                 <a href="#">المدونة</a>

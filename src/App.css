@@ -13,7 +13,7 @@
   gap: 100px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   background-color: #FFFFFF;
-  padding: 15px;
+  padding: 9px;
 }
 
 #HUMBURGER{
@@ -23,28 +23,20 @@
   display: none;
 }
 
-#LOGO {
-  width: 70px;
-  height: 50px;
-  background: url(/LOGO.png) no-repeat;
-  background-size: cover;
-  cursor: pointer;
-}
-
 #Header a{
   color: #4E4E4E;
   font-family: Cairo;
-  text-decoration: none;
-  position: relative;
-  transition: 0.5s ease;
 }
 
 #Header a:hover{
-  opacity: 0.7;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
 }
-/* #Header #LOGO a img{
-  position: relative;
-} */
+
+#Header #LOGO a img{
+  height: 100px;
+  width: 120px;
+}
 
 #Header #LINKS{
   display: flex;
