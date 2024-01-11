@@ -1,4 +1,5 @@
-import { CgMenuRightAlt } from "react-icons/cg";
+// import { CgMenuRightAlt } from "react-icons/cg";
+import Sidebar from './Sidebar';
 
 const Header = () => {
     return(
@@ -18,7 +19,8 @@ const Header = () => {
                 <a href="#d1" >صيانة ثلاجات</a>
             </div>
             <div id="HUMBURGER">
-                <CgMenuRightAlt />
+                {/* <CgMenuRightAlt /> */}
+                <Sidebar />
             </div>
         </div>
     )
