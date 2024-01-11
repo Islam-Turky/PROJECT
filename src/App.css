@@ -1,0 +1,362 @@
+@font-face{
+  font-family: Cairo;
+  src: url(/Cairo-VariableFont_slnt,wght.ttf);
+}
+
+#Header {
+  width: 100vw;
+  position:fixed;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  z-index: 100;
+  gap: 100px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+
+#HUMBURGER{
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bolder;
+  display: none;
+}
+
+#LOGO {
+  width: 70px;
+  height: 50px;
+  background: url(/LOGO.png) no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Header a{
+  color: #4E4E4E;
+  font-family: Cairo;
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+#Header a:hover{
+  opacity: 0.7;
+}
+/* #Header #LOGO a img{
+  position: relative;
+} */
+
+#Header #LINKS{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  justify-content: center;
+  width: 50%;
+}
+
+/* BODY */
+#HOME{
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#HOME #WRAPPER img{
+  width: 100vw;
+  height:100vh;
+}
+
+#HOME #WHYWE{
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEDEE;
+  border-bottom: solid 11px #02773B;
+  padding: 20px;
+}
+
+#HOME #WHYWE #content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about{
+  color: #02773B;
+  font-family: Cairo;
+  font-size: 42px;
+}
+
+#HOME #WHYWE #content .icon{
+  color: #1A202C;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#HOME #WHYWE #content .icon .bio{
+  color: #1A202C;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Cairo;
+}
+
+/* Who */
+#WHO{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  padding: 20px;
+}
+
+#WHO p{
+  width: 60%;
+}
+
+.paragraph{
+  color: #2E2D2D;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: Cairo;
+  text-align: start;
+  direction:rtl;
+}
+
+.Button{
+  background-color: #02773B;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  position: relative;
+}
+
+.Button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* DISPLAYER */
+#DISPLAYER{
+  max-width: 100%;
+  background-color: #EAEDEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+}
+
+#DISPLAYER .wrapp{
+  max-width: 90%;
+}
+
+#DISPLAYER .wrapp img{
+  max-width: 100%; 
+}
+
+.wrappbio{
+  background-color: #FDFDFD;
+  max-width: fit-content;
+  text-align: center;
+}
+
+.wrappbio .wrapptitle{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Cairo;
+  letter-spacing: 0.1px;
+  color: #3b3d42;
+}
+
+.wrappbio .mini{
+  font-size: 17px;
+  line-height: 1.6em;
+  color: #000;
+  font-family: Cairo;
+}
+
+.paragraph2{
+  width: 70%;
+  direction: rtl;
+  font-size: 18px;
+  font-family: Cairo;
+}
+
+/* Then by details */
+#d1, #d2, #d3, #d4, #d5, #d6{
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#d2 ,#d4 ,#d6{
+  background-color: #EAEDEE;
+}
+
+#d1 .one, #d3 .one, #d5 .one{
+  direction: rtl;
+  width: 70%;
+  display: flex;
+  gap: 50px;
+}
+#d2 .one, #d4 .one, #d6 .one{
+  width: 70%;
+  display: flex;
+  gap: 50px;
+}
+
+#d2 .one .inner .about,
+#d4 .one .inner .about,
+#d6 .one .inner .about{
+  direction: rtl;
+}
+
+.innerimage{
+  width: 30%;
+}
+
+.innerimage img{
+  max-width: 100%;
+  height: auto;
+}
+.inner{
+  width: 70%;
+}
+
+.inner .innerbio{
+  color: #2E2D2D;
+  font-size: 17px;
+  font-family: Cairo;
+  font-weight: 500;
+  text-align: right;
+}
+
+/* Contacts */
+#contacts{
+  width: 100%;
+  height: 80vh;
+  background-color: #232E31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about2{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: Cairo;
+  font-weight: bold;
+}
+
+#contacts #container{
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#contacts #container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+#contacts #container form label div{
+  text-align: right;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: Cairo;
+}
+
+input[type="text"], input[type="email"]{
+  text-align: right;
+  color: #495057;
+  padding: 10px;
+  border-radius: 3px;
+  width: 286px;
+}
+
+#icons{
+  color: #FFFFFF;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+#tele{
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+}
+
+#icons span{
+  background-color: #02773B;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 17px;
+  padding: 12px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* footer */
+#Footer{
+  width: 100%;
+  background-color: #02773B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Cairo;
+  font-weight: 400;
+}
+
+#copy{
+  font-size: 35px;
+}
+
+/* ###################################################### */
+
+/* Responsive */
+@media screen and (max-width: 1500px){
+  #HUMBURGER{
+    display: block;
+  }
+  #LINKS, #LINKS a{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #contacts #container{
+    flex-direction: column;
+  }
+
+}
