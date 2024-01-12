@@ -4,6 +4,24 @@
 }
 
 
+#chat{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  color: #02773B;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  z-index: 101;
+}
+
+.whatsapp{
+  cursor: pointer;
+}
+
 #Header {
   width: 100vw;
   position:fixed;

@@ -1,6 +1,6 @@
 import { FaHeadphones, FaHome, FaFacebook,  } from "react-icons/fa";
 import { IoSettingsSharp } from "react-icons/io5";
-import { IoLogoTwitter, IoLogoYoutube } from "react-icons/io";
+import { IoLogoTwitter, IoLogoYoutube, IoLogoWhatsapp } from "react-icons/io";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow } from 'swiper/modules';
@@ -257,6 +257,9 @@ const Home = () => {
                         </form>
                     </div>
                 </div>
+            </div>
+            <div id="chat">
+                <IoLogoWhatsapp className="whatsapp"/>
             </div>
             <Footer />
         </>
