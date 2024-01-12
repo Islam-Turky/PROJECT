@@ -86,42 +86,42 @@ const Home = () => {
                             }}
                         >
                             <SwiperSlide>
-                                <img src="/deepf.jpg" className="img" alt="s1"/>
+                                <img src="/d1.jpg" className="img" alt="s1"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة الديب فريزر</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/dishwasher.jpg" className="img" alt="s2"/>
+                                <img src="/d2.jpg" className="img" alt="s2"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة غسالات الأطباق</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/fridgess.jpg" className="img" alt="s3"/>
+                                <img src="/d3.jpg" className="img" alt="s3"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة الثلاجات</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/gasa.jpg" className="img" alt="s4"/>
+                                <img src="/d4.jpg" className="img" alt="s4"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة الغسالات</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/minibar.jpg" className="img" alt="s5"/>
+                                <img src="/d5.jpg" className="img" alt="s5"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة ميني بار</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/mog.jpg" className="img" alt="s6"/>
+                                <img src="/d6.jpg" className="img" alt="s6"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة المجففات</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
