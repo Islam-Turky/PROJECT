@@ -1,7 +1,12 @@
-// import { CgMenuRightAlt } from "react-icons/cg";
-import Sidebar from './Sidebar';
+import Sidebar from "../components/Sidebar";
+import { CgMenuRightAlt } from 'react-icons/cg';
+import { IoMdClose } from "react-icons/io";
+import { useState } from 'react';
+import './Sidebar.css';
 
 const Header = () => {
+    const [ sidebar, setSidebar ] = useState(false);
+    const showSidebar = () => setSidebar(!sidebar);
     return(
         <div id="Header" >
             <div id="LOGO">
@@ -19,8 +24,15 @@ const Header = () => {
                 <a href="#d1" >صيانة ثلاجات</a>
             </div>
             <div id="HUMBURGER">
-                {/* <CgMenuRightAlt /> */}
-                <Sidebar />
+                <a href="#" className="menuicon">
+                    <CgMenuRightAlt onClick={showSidebar} />
+                </a>
+                <nav className={ sidebar ? 'nav-menu active' : 'nav-menu' }>
+                    <a href="#" className="menuicon"><IoMdClose onClick={showSidebar}/></a>
+                    <div className="items">
+                        <Sidebar />
+                    </div>
+                </nav>
             </div>
         </div>
     )

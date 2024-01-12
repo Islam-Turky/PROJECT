@@ -17,12 +17,53 @@
   padding: 9px;
 }
 
-#HUMBURGER{
-  font-size: 30px;
-  cursor: pointer;
-  font-weight: bolder;
+/* sidebar */
+.menuicon{
   display: none;
 }
+
+#HUMBURGER {
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
+.nav-menu {
+  background-color: #FFFFFF;
+  width: 280px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.nav-menu.active {
+  right: 0;
+  transition: 350ms;
+}
+
+.items{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  gap: 10px;
+}
+
+.items a{
+  font-family: Cairo;
+  font-weight: bolder;
+  font-size: 18px;
+}
+/* sidebar */
 
 #Header a{
   color: #4E4E4E;
@@ -339,7 +380,10 @@ input[type="text"], input[type="email"]{
 
 /* Responsive */
 @media screen and (max-width: 1500px){
-  #HUMBURGER{
+  .menuicon {
+    margin-right: 2rem;
+    font-size: 2rem;
+    background: none;
     display: block;
   }
   #LINKS, #LINKS a{
