@@ -36,6 +36,7 @@ const Home = () => {
                     <br />
                     <div id="WHYWE">
                         <div id="content">
+                            <div className="about">لماذا نحن؟</div>
                             <div className="icon">
                                 <IoSettingsSharp />
                                 <div className="bio">قطع غيار أصلية</div>
@@ -48,7 +49,6 @@ const Home = () => {
                                 <FaHeadphones />
                                 <div className="bio">خدمه 24 ساعة</div>
                             </div>
-                            <div className="about">لماذا نحن؟</div>
                         </div>
                     </div>
                 </div>
