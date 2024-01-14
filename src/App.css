@@ -209,11 +209,12 @@
 }
 
 #DISPLAYER .wrapp{
-  max-width: 90%;
+  max-width: 100%;
 }
 
 #DISPLAYER .wrapp img{
   max-width: 100%; 
+  height: auto;
 }
 
 .wrappbio{
@@ -397,7 +398,7 @@ input[type="text"], input[type="email"]{
 /* ###################################################### */
 
 /* Responsive */
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1100px){
   .menuicon {
     margin-right: 2rem;
     font-size: 2rem;
@@ -407,11 +408,19 @@ input[type="text"], input[type="email"]{
   #LINKS, #LINKS a{
     display: none;
   }
+  .one .innerimage img{
+    display: none;
+  }
+  .one .inner{
+    width: 100vw;
+  }
+  .one{
+    direction: rtl;
+  }
 }
 
 @media screen and (max-width: 500px) {
   #contacts #container{
     flex-direction: column;
   }
-
 }
