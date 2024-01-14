@@ -9,7 +9,7 @@ const Header = () => {
         <div id="Header" >
             <div id="LOGO">
                 <a href="#">
-                    <img src="/LOGO.png" alt="logo" />
+                    <img src="/LOGO.webp" alt="logo" />
                 </a>
             </div>
             <div id="LINKS">
@@ -22,11 +22,11 @@ const Header = () => {
                 <a href="#d1" >صيانة ثلاجات</a>
             </div>
             <div id="HUMBURGER">
-                <a href="#" className="menuicon">
+                <i className="menuicon">
                     <CgMenuRightAlt onClick={showSidebar} />
-                </a>
+                </i>
                 <nav className={ sidebar ? 'nav-menu active' : 'nav-menu' }>
-                    <a href="#" className="menuicon"><IoMdClose onClick={showSidebar}/></a>
+                    <i className="menuicon"><IoMdClose onClick={showSidebar}/></i>
                     <div className="items">
                     <a href="#d1"className="active" >صيانة ثلاجات</a>
                         <a href="#d2">صيانة ميني بار</a>

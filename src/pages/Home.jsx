@@ -29,9 +29,9 @@ const Home = () => {
                             disableOnInteraction: false,
                         }}
                     >
-                        <SwiperSlide><img src="/wrapper.jpg" alt="w1" sizes="50vw"/></SwiperSlide>
-                        <SwiperSlide><img src="/wrapperfridge.jpg" alt="w2" sizes="50vw"/></SwiperSlide>
-                        <SwiperSlide><img src="/wrapperfridges.jpg" alt="w2" sizes="50vw"/></SwiperSlide>
+                        <SwiperSlide><img src="/wrapper.webp" alt="w1" sizes="50vw"/></SwiperSlide>
+                        <SwiperSlide><img src="/wrapperfridge.webp" alt="w2" sizes="50vw"/></SwiperSlide>
+                        <SwiperSlide><img src="/wrapperfridges.webp" alt="w2" sizes="50vw"/></SwiperSlide>
                     </Swiper>
                     <br />
                     <div id="WHYWE">
@@ -86,42 +86,42 @@ const Home = () => {
                             }}
                         >
                             <SwiperSlide>
-                                <img src="/d1.jpg" className="img" alt="s1"/>
+                                <img src="/d1.webp" className="img" alt="s1"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة الديب فريزر</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/d2.jpg" className="img" alt="s2"/>
+                                <img src="/d2.webp" className="img" alt="s2"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة غسالات الأطباق</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/d3.jpg" className="img" alt="s3"/>
+                                <img src="/d3.webp" className="img" alt="s3"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة الثلاجات</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/d4.jpg" className="img" alt="s4"/>
+                                <img src="/d4.webp" className="img" alt="s4"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة الغسالات</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/d5.jpg" className="img" alt="s5"/>
+                                <img src="/d5.webp" className="img" alt="s5"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة ميني بار</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
                                 </div> */}
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="/d6.jpg" className="img" alt="s6"/>
+                                <img src="/d6.webp" className="img" alt="s6"/>
                                 {/* <div className="wrappbio">
                                     <div className="wrapptitle">صيانة المجففات</div>
                                     <div className="mini">أسرع و أفضل خدمه في مصر</div>
@@ -136,7 +136,7 @@ const Home = () => {
                 <div id="d1">
                     <div className="one">
                         <div className="innerimage">
-                            <img src="/d1.jpg" alt="d1"/>
+                            <img src="/d1.webp" alt="d1"/>
                         </div>
                         <div className="inner">
                             <div className="about">صيانة ثلاجات</div>
@@ -150,7 +150,7 @@ const Home = () => {
                 <div id="d2">
                     <div className="one">
                         <div className="innerimage">
-                            <img src="/d2.jpg" alt="d2"/>
+                            <img src="/d2.webp" alt="d2"/>
                         </div>
                         <div className="inner">
                         <div className="about">صيانة ميني بار</div>
@@ -164,7 +164,7 @@ const Home = () => {
                 <div id="d3">
                     <div className="one">
                         <div className="innerimage">
-                            <img src="/d3.jpg" alt="d3"/>
+                            <img src="/d3.webp" alt="d3"/>
                         </div>
                         <div className="inner">
                         <div className="about">صيانة ديب فريزر</div>
@@ -178,7 +178,7 @@ const Home = () => {
                 <div id="d4">
                     <div className="one">
                         <div className="innerimage">
-                            <img src="/d4.jpg" alt="d4"/>
+                            <img src="/d4.webp" alt="d4"/>
                         </div>
                         <div className="inner">
                         <div className="about">صيانة غسالات الملابس</div>
@@ -192,7 +192,7 @@ const Home = () => {
                 <div id="d5">
                     <div className="one">
                         <div className="innerimage">
-                            <img src="/d5.jpg" alt="d5"/>
+                            <img src="/d5.webp" alt="d5"/>
                         </div>
                         <div className="inner">
                         <div className="about">صيانة مجففات ملابس</div>
@@ -206,7 +206,7 @@ const Home = () => {
                 <div id="d6">
                     <div className="one">
                         <div className="innerimage">
-                            <img src="/d6.jpg" alt="d6"/>
+                            <img src="/d6.webp" alt="d6"/>
                         </div>
                         <div className="inner">
                         <div className="about">صيانة غسالات الاطباق</div>
