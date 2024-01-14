@@ -29,9 +29,9 @@ const Home = () => {
                             disableOnInteraction: false,
                         }}
                     >
-                        <SwiperSlide><img src="/wrapper.jpg" alt="w1"/></SwiperSlide>
-                        <SwiperSlide><img src="/wrapperfridge.jpg" alt="w2"/></SwiperSlide>
-                        <SwiperSlide><img src="/wrapperfridges.jpg" alt="w2"/></SwiperSlide>
+                        <SwiperSlide><img src="/wrapper.jpg" alt="w1" sizes="50vw"/></SwiperSlide>
+                        <SwiperSlide><img src="/wrapperfridge.jpg" alt="w2" sizes="50vw"/></SwiperSlide>
+                        <SwiperSlide><img src="/wrapperfridges.jpg" alt="w2" sizes="50vw"/></SwiperSlide>
                     </Swiper>
                     <br />
                     <div id="WHYWE">
