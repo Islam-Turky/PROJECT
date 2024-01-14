@@ -15,6 +15,10 @@ a{
   text-decoration: none;
 }
 
+img{
+  height: auto;
+}
+
 i{
   cursor: pointer;
 }
