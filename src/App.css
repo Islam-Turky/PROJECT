@@ -382,7 +382,7 @@ input[type="text"], input[type="email"]{
 /* ###################################################### */
 
 /* Responsive */
-@media screen and (max-width: 1700px){
+@media screen and (max-width: 800px){
   #wrapperSwipper{
       margin-top: 130px;
   }
