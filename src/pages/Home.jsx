@@ -69,8 +69,6 @@ const Home = () => {
                         <Swiper
                             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                             spaceBetween={50}
-                            // slidesPerView={3}
-                            navigation
                             pagination={{ clickable: true }}
                             effect={'coverflow'}
                             coverflowEffect={{
