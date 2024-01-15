@@ -271,9 +271,9 @@ const Home = () => {
                 </div>
             </div>
             <div id="chat">
-                <div className="i" >
+                {/* <div className="i" >
                     <IoLogoWhatsapp className="whatsapp"/>
-                </div>
+                </div> */}
                 <div className="i" id="phoneicon">
                     <BsFillTelephoneFill className="whatsapp"/>
                 </div>
