@@ -67,10 +67,9 @@ const Home = () => {
                     <div className="about">مركز صيانة كريازي</div>
                     <div className="wrapp">
                         <Swiper
-                        className="swipersec"
                             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                             spaceBetween={50}
-                            slidesPerView={3}
+                            // slidesPerView={3}
                             navigation
                             pagination={{ clickable: true }}
                             effect={'coverflow'}
@@ -85,6 +84,20 @@ const Home = () => {
                                 delay: 2500,
                                 disableOnInteraction: false,
                             }}
+                            breakpoints={{
+                                640: {
+                                    slidesPerView: 1,
+                                    // spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    // spaceBetween: 40,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    // spaceBetween: 50,
+                                },
+                                }}
                         >
                             <SwiperSlide>
                                 <img src="/d1.webp" className="img" alt="s1"/>

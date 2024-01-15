@@ -5,35 +5,7 @@
 
 
 #chat{
-  position: fixed;
-  bottom: 10vh;
-  right: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 100px;
-  z-index: 90;
-  color: #00e46e;
-  gap: 10px;
-}
-
-.i{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: #fff;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-}
-
-.whatsapp{
-  cursor: pointer;
-}
-
-#phoneicon{
-  font-size: 80px;
-  padding-top: 10px;
+  display: none;
 }
 
 #Header {
@@ -444,6 +416,37 @@ input[type="text"], input[type="email"]{
   }
   #content{
     flex-direction: column;
+  }
+  #chat{
+    position: fixed;
+    bottom: 10vh;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    z-index: 90;
+    color: #00e46e;
+    gap: 10px;
+  }
+  
+  .i{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+  
+  .whatsapp{
+    cursor: pointer;
+  }
+  
+  #phoneicon{
+    font-size: 80px;
+    padding-top: 10px;
   }
 }
 
