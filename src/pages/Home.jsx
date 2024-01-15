@@ -1,6 +1,6 @@
 import { FaHeadphones, FaHome, FaFacebook,  } from "react-icons/fa";
 import { IoSettingsSharp } from "react-icons/io5";
-import { IoLogoTwitter, IoLogoYoutube, IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoTwitter, IoLogoYoutube } from "react-icons/io";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow } from 'swiper/modules';
@@ -10,8 +10,18 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Home = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_tpvzdtc', 'template_ra1bgaf', form.current, 'ZZEEsmFJK3TpnKA_1')
+        .then(() => alert("Message Sent successfully!"))
+        .catch((error) => {alert("Error In Our Service Please Try Again Later"); console.log(error);});
+    }
     return(
         <>
             <Header />
@@ -244,17 +254,17 @@ const Home = () => {
                                 <span><FaFacebook /></span>
                             </div>
                         </div>
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <div>
                                 <label htmlFor="name">
                                     <div>الاسم بالكامل</div>
-                                    <input type="text" id="name" placeholder="الاسم بالكامل"/>
+                                    <input type="text" id="name" placeholder="الاسم بالكامل" name="name"/>
                                 </label>
                             </div>
                             <div>
                                 <label htmlFor="email">
                                     <div>البريد الالكتروني</div>
-                                    <input type="email" id="email" placeholder="البريد الالكتروني"/>
+                                    <input type="email" id="email" placeholder="البريد الالكتروني" name="email"/>
                                 </label>
                             </div>
                             <div>
