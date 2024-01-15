@@ -104,7 +104,7 @@
 }
 
 #HOME #WHYWE{
-  width: 100%;
+  /* width: 100%; */
   min-height: 20vh;
   display: flex;
   justify-content: center;
@@ -193,7 +193,7 @@
 }
 
 #DISPLAYER .wrapp{
-  max-width: 100%;
+  max-width: 70%;
 }
 
 #DISPLAYER .wrapp img{
@@ -382,6 +382,17 @@ input[type="text"], input[type="email"]{
 /* ###################################################### */
 
 /* Responsive */
+@media screen and (max-width: 1770px){
+  .menuicon {
+    margin-right: 2rem;
+    font-size: 2rem;
+    background: none;
+    display: block;
+  }
+  #LINKS, #LINKS a{
+    display: none;
+  }
+}
 @media screen and (max-width: 800px){
   #wrapperSwipper{
       margin-top: 130px;
