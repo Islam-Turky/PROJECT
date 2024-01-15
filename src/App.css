@@ -94,18 +94,13 @@
 
 /* BODY */
 #HOME{
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-#wrapperSwipper{
-  width: 100%;
-}
-
 #HOME #WRAPPER img{
-  width: 100vw;
+  width: 100%;
 }
 
 #HOME #WHYWE{
@@ -116,7 +111,7 @@
   align-items: center;
   background-color: #EAEDEE;
   border-bottom: solid 11px #02773B;
-  padding: 20px;
+  padding: 5px;
 }
 
 #HOME #WHYWE #content{
@@ -178,7 +173,6 @@
   padding: 12px 24px;
   border-radius: 3px;
   color: #fff;
-  position: relative;
 }
 
 .Button:hover{
