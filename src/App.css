@@ -6,20 +6,34 @@
 
 #chat{
   position: fixed;
-  bottom: 10px;
+  bottom: 10vh;
   right: 10px;
-  border-radius: 50%;
-  color: #02773B;
-  background-color: #FFFFFF;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 100px;
-  z-index: 101;
+  z-index: 90;
+  color: #00e46e;
+  gap: 10px;
+}
+
+.i{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
 }
 
 .whatsapp{
   cursor: pointer;
+}
+
+#phoneicon{
+  font-size: 80px;
+  padding-top: 10px;
 }
 
 #Header {
@@ -114,9 +128,12 @@
   gap: 50px;
 }
 
+#wrapperSwipper{
+  width: 100vw;
+}
+
 #HOME #WRAPPER img{
   width: 100vw;
-  height: 100vh;
 }
 
 #HOME #WHYWE{
@@ -400,6 +417,9 @@ input[type="text"], input[type="email"]{
 
 /* Responsive */
 @media screen and (max-width: 1700px){
+  #wrapperSwipper{
+      margin-top: 130px;
+  }
   .menuicon {
     margin-right: 2rem;
     font-size: 2rem;
@@ -411,7 +431,6 @@ input[type="text"], input[type="email"]{
   }
   .one .innerimage img{
     display: none;
-    /* visibility: hidden; */
   }
   .one .inner{
     min-width: 85%;

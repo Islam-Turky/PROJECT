@@ -17,7 +17,7 @@ const Home = () => {
             <Header />
             <div id="HOME">
                 <div id="WRAPPER">
-                    <Swiper
+                    <Swiper id="wrapperSwipper"
                         modules={[Pagination, Scrollbar, A11y, Autoplay]}
                         spaceBetween={50}
                         slidesPerView={'auto'}
@@ -67,6 +67,7 @@ const Home = () => {
                     <div className="about">مركز صيانة كريازي</div>
                     <div className="wrapp">
                         <Swiper
+                        className="swipersec"
                             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                             spaceBetween={50}
                             slidesPerView={3}
@@ -259,7 +260,12 @@ const Home = () => {
                 </div>
             </div>
             <div id="chat">
-                <IoLogoWhatsapp className="whatsapp"/>
+                <div className="i" >
+                    <IoLogoWhatsapp className="whatsapp"/>
+                </div>
+                <div className="i" id="phoneicon">
+                    <BsFillTelephoneFill className="whatsapp"/>
+                </div>
             </div>
             <Footer />
         </>
