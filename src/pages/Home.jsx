@@ -71,7 +71,7 @@ const Home = () => {
                             على مدار الساعه, بإستخدام قطع غيار أصلية بضمان لمدة عام, و تقديم خدمة متميزه و فائقه لإرضاء عملائنا
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="DISPLAYER">
                     <div className="about">مركز صيانة كريازي</div>
@@ -167,7 +167,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="d2">
                     <div className="one">
@@ -181,7 +181,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="d3">
                     <div className="one">
@@ -195,7 +195,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="d4">
                     <div className="one">
@@ -209,7 +209,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="d5">
                     <div className="one">
@@ -223,7 +223,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="d6">
                     <div className="one">
@@ -237,7 +237,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="Button">اتصل الان</a>
+                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
                 </div>
                 <div id="contacts">
                         <div className="about2">تواصل معنا</div>
@@ -285,7 +285,9 @@ const Home = () => {
                     <IoLogoWhatsapp className="whatsapp"/>
                 </div> */}
                 <div className="i" id="phoneicon">
-                    <BsFillTelephoneFill className="whatsapp"/>
+                    <a href="tel:+201015632015">
+                        <BsFillTelephoneFill className="whatsapp"/>
+                    </a>
                 </div>
             </div>
             <Footer />
