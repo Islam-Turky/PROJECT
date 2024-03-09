@@ -1,17 +1,19 @@
-import { FaHeadphones, FaHome, FaFacebook,  } from "react-icons/fa";
-import { IoSettingsSharp } from "react-icons/io5";
-import { IoLogoTwitter, IoLogoYoutube } from "react-icons/io";
+import emailjs from '@emailjs/browser';
+import Box from '@mui/material/Box';
+import { useRef } from 'react';
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow } from 'swiper/modules';
+import { FaFacebook, FaHeadphones, FaHome, } from "react-icons/fa";
+import { IoLogoTwitter, IoLogoYoutube } from "react-icons/io";
+import { IoSettingsSharp } from "react-icons/io5";
 import 'swiper/css';
+import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
-import Header from '../components/Header';
+import { A11y, Autoplay, EffectCoverflow, Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Footer from '../components/Footer';
-import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import Header from '../components/Header';
+import BasicSpeedDial from '../components/Spidal';
 
 const Home = () => {
     const form = useRef();
@@ -24,6 +26,7 @@ const Home = () => {
     }
     return(
         <>
+        <Box>
             <Header />
             <div id="HOME">
                 <div id="WRAPPER">
@@ -280,17 +283,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div id="chat">
-                {/* <div className="i" >
-                    <IoLogoWhatsapp className="whatsapp"/>
-                </div> */}
-                <div className="i" id="phoneicon">
-                    <a href="tel:+201015632015">
-                        <BsFillTelephoneFill className="whatsapp"/>
-                    </a>
-                </div>
-            </div>
-            <Footer />
+            <BasicSpeedDial />
+        </Box>
+        <Footer />
         </>
     )
 }
