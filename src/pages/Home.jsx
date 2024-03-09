@@ -63,7 +63,7 @@ const Home = () => {
                             على مدار الساعه, بإستخدام قطع غيار أصلية بضمان لمدة عام, و تقديم خدمة متميزه و فائقه لإرضاء عملائنا
                         </div>
                     </div>
-                    <a href="tel:+201015632015" className="Button">اتصل الان</a>
+                    <a href="tel:0155494592" className="Button">اتصل الان</a>
                 </div>
                 <div id="DISPLAYER">
                     <div className="about">مركز صيانة كريازي</div>
