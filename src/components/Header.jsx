@@ -20,6 +20,7 @@ import { styled, useTheme } from '@mui/material/styles';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import EngineeringIcon from '@mui/icons-material/Engineering';
 import { useState } from 'react';
 
 const drawerWidth = 240;
@@ -92,8 +93,14 @@ const sideIcons = [
     {
         id: 2,
         name: 'من نحن',
-        route: '#WHO',
+        route: '#WRAPPER',
         icon: <InfoIcon />
+    },
+    {
+        id: 4,
+        name: 'الماركات',
+        route: '#WHO',
+        icon: <EngineeringIcon />
     },
     {
         id: 3,
