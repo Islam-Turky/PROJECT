@@ -1,8 +1,6 @@
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MuiAppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -20,30 +18,29 @@ import { styled, useTheme } from '@mui/material/styles';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import EngineeringIcon from '@mui/icons-material/Engineering';
 import { useState } from 'react';
 
 const drawerWidth = 240;
 
-const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
-({ theme, open }) => ({
-    flexGrow: 1,
-    padding: theme.spacing(3),
-    transition: theme.transitions.create('margin', {
-    easing: theme.transitions.easing.sharp,
-    duration: theme.transitions.duration.leavingScreen,
-    }),
-    marginRight: -drawerWidth,
-    ...(open && {
-    transition: theme.transitions.create('margin', {
-        easing: theme.transitions.easing.easeOut,
-        duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginRight: 0,
-    }),
-    position: 'relative',
-}),
-);
+// const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
+// ({ theme, open }) => ({
+//     flexGrow: 1,
+//     padding: theme.spacing(3),
+//     transition: theme.transitions.create('margin', {
+//     easing: theme.transitions.easing.sharp,
+//     duration: theme.transitions.duration.leavingScreen,
+//     }),
+//     marginRight: -drawerWidth,
+//     ...(open && {
+//     transition: theme.transitions.create('margin', {
+//         easing: theme.transitions.easing.easeOut,
+//         duration: theme.transitions.duration.enteringScreen,
+//     }),
+//     marginRight: 0,
+//     }),
+//     position: 'relative',
+// }),
+// );
 
 const AppBar = styled(MuiAppBar, {
 shouldForwardProp: (prop) => prop !== 'open',
@@ -92,20 +89,14 @@ const sideIcons = [
     },
     {
         id: 2,
-        name: 'من نحن',
-        route: '#WRAPPER',
+        name: 'العلامات التجاريه',
+        route: '#who',
         icon: <InfoIcon />
-    },
-    {
-        id: 4,
-        name: 'الماركات',
-        route: '#WHO',
-        icon: <EngineeringIcon />
     },
     {
         id: 3,
         name: 'تواصل معنا',
-        route: '#contacts',
+        route: '#contact',
         icon: <AlternateEmailIcon />
     },
 ]
@@ -114,13 +105,13 @@ return (
     <Box sx={{ display: 'flex' }}>
     <CssBaseline />
     <AppBar position="fixed" open={open} sx={{
-        background: '#1A202C',
+        background: '#034EA2',
     }}>
         <Toolbar>
         <Typography variant="h6" noWrap sx={{ flexGrow: 1, paddingTop: '10px' }} component="div">
-            <a href="/">
+            {/* <a href="/">
                 <img src="/LOGO.webp" alt="logo" width={100}/>
-            </a>
+            </a> */}
         </Typography>
         <IconButton
             // color="inherit"

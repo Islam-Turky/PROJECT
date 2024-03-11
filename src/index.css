@@ -5,20 +5,3 @@
   border: none;
   scroll-behavior: smooth;
 }
-
-body{
-  background-color: #FDFDFD;
-  color: #000;
-}
-
-a{
-  text-decoration: none;
-}
-
-img{
-  height: auto;
-}
-
-i{
-  cursor: pointer;
-}

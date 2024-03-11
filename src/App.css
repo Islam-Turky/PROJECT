@@ -3,471 +3,93 @@
   src: url(/Cairo-VariableFont_slnt,wght.ttf);
 }
 
-/*  */
-.cover{
-  width: auto;
-  height: 50vh;
-  background: url(/cover.webp) no-repeat;
-  background-size:cover; 
-}
-/*  */
-
-
-#chat{
-  display: none;
-}
-
-#Header {
-  width: 100vw;
-  position:fixed;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  top: 0;
-  z-index: 100;
-  gap: 100px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  background-color: 1A202C;
-  padding: 9px;
-}
-
-/* sidebar */
-.menuicon{
-  display: none;
-}
-
-#HUMBURGER {
-  height: 80px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-
-
-.nav-menu {
-  background-color: #FFFFFF;
-  width: 280px;
-  height: 100vh;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: -100%;
-  transition: 850ms;
-  padding: 50px;
-  flex-direction: column;
-}
-
-.nav-menu.active {
-  right: 0;
-  transition: 350ms;
-}
-
-.items{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  direction: rtl;
-  gap: 10px;
-}
-
-.items a{
-  font-family: Cairo;
-  font-weight: bolder;
-  font-size: 18px;
-}
-/* sidebar */
-
-#Header a{
-  color: #4E4E4E;
-  font-family: Cairo;
-}
-
-#Header a:hover{
-  opacity: 0.5;
-  transition: 0.5s ease-in-out;
-}
-
-#Header #LOGO a img{
-  height: 100px;
-  width: 120px;
-}
-
-#Header #LINKS{
-  display: flex;
-  align-items: center;
-  gap: 23px;
-  justify-content: center;
-  width: 50%;
-}
-
-/* BODY */
-#HOME{
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-#HOME #WRAPPER img{
-  width: 100%;
-  /* margin-top: 70px; */
-}
-
-#HOME #WHYWE{
-  /* width: 100%; */
-  min-height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #EAEDEE;
-  border-bottom: solid 11px rgb(rgb(6, 155, 248)6, 155, 248);
-  padding: 5px;
-}
-
-#HOME #WHYWE #content{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  direction: rtl;
-}
-
-.about{
-  color: #02773B;
-  font-family: Cairo;
-  font-size: 42px;
-}
-
-#HOME #WHYWE #content .icon{
-  color: #1A202C;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 900;
-}
-
-#HOME #WHYWE #content .icon .bio{
-  color: #1A202C;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 500;
-  font-family: Cairo;
-}
-
-/* Who */
-#WHO{
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 45px;
-  padding: 20px;
-}
-
-.paragraph{
-  color: #2E2D2D;
-  font-weight: 500;
-  font-size: 17px;
-  font-family: Cairo;
-  text-align: start;
-  direction:rtl;
-}
-
-.Button{
-  background-color: rgb(6, 155, 248);
-  padding: 12px 24px;
-  border-radius: 3px;
-  color: #fff;
-}
-
-.Button:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-/* DISPLAYER */
-#DISPLAYER{
-  max-width: 100%;
-  background-color: #EAEDEE;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-
-}
-
-#DISPLAYER .wrapp{
-  max-width: 70%;
-}
-
-#DISPLAYER .wrapp img{
-  width: 100%; 
-  height: auto;
-}
-
-.wrappbio{
-  background-color: #FDFDFD;
-  max-width: fit-content;
-  text-align: center;
-}
-
-.wrappbio .wrapptitle{
-  font-size: 25px;
-  font-weight: 600;
-  font-family: Cairo;
-  letter-spacing: 0.1px;
-  color: #3b3d42;
-}
-
-.wrappbio .mini{
-  font-size: 17px;
-  line-height: 1.6em;
-  color: #000;
-  font-family: Cairo;
-}
-
-.paragraph2{
-  width: 70%;
-  direction: rtl;
-  font-size: 18px;
-  font-family: Cairo;
-}
-
-/* Then by details */
-#d1, #d2, #d3, #d4, #d5, #d6{
-  width: 100%;
-  display: flex;
-  gap: 50px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-#d2 ,#d4 ,#d6{
-  background-color: #EAEDEE;
-}
-
-#d1 .one, #d3 .one, #d5 .one{
-  direction: rtl;
-  width: 70%;
-  display: flex;
-  gap: 50px;
-}
-#d2 .one, #d4 .one, #d6 .one{
-  width: 70%;
-  display: flex;
-  gap: 50px;
-}
-
-#d2 .one .inner .about,
-#d4 .one .inner .about,
-#d6 .one .inner .about{
-  direction: rtl;
-}
-
-.innerimage{
-  width: 30%;
-}
-
-.innerimage img{
-  max-width: 100%;
-  height: auto;
-}
-.inner{
-  width: 70%;
-}
-
-.inner .innerbio{
-  color: #2E2D2D;
-  font-size: 17px;
-  font-family: Cairo;
-  font-weight: 500;
-  text-align: right;
-}
-
-/* Contacts */
-#contacts{
-  width: 100%;
-  height: 80vh;
-  background-color: #232E31;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about2{
-  color: #FFFFFF;
-  font-size: 30px;
-  font-family: Cairo;
-  font-weight: bold;
-}
-
-#contacts #container{
-  height: 70vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1200px;
-  max-width: 100%;
+.mainContainer{
+  margin: 10px;
   overflow: hidden;
+  position: relative;
+  background: #3333;
 }
 
-#contacts #container form{
+.mainContainer .container{
+  padding: 40px 0;
+  position: relative;
+  margin-top: 10px;
+}
+
+.mainContainer .container img{
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*  */
+
+.desc{
+  position: absolute;
+  /* right: 0; */
+  height: 50%;
+  text-align: center;
+  z-index: 10;
+  padding: 10px;
+  width: 100%;
+}
+
+.desc h4{
+  color: #FFFFFF;
+  display: block;
+}
+
+
+.mySwiper img{
+  filter:brightness(50%);
+}
+
+#who{
+  height: 60vh;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.content .element{
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  width: 1000px;
-  max-width: 100%;
 }
-
-#contacts #container form label div{
-  text-align: right;
-  color: #FFFFFF;
-  font-weight: 600;
-  font-family: Cairo;
-}
-
-input[type="text"], input[type="email"]{
-  text-align: right;
-  color: #495057;
-  padding: 10px;
-  border-radius: 3px;
-  min-width: 250px;
-}
-
-#icons{
-  color: #FFFFFF;
+.content .element div{
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  justify-content: center;
-}
-
-#tele{
-  color: #FFFFFF;
-  font-size: 25px;
-  font-weight: 500;
-  display: flex;
   gap: 10px;
 }
 
-#icons span{
-  background-color: rgb(6, 155, 248);
-  border-radius: 50%;
-  text-align: center;
-  font-size: 17px;
-  padding: 12px;
-  font-size: 25px;
-  cursor: pointer;
+.content .element div .icon {
+  color: #111111;
+  font-size: 40px;
 }
 
-/* footer */
 #Footer{
   width: 100%;
-  background-color: #1A202C;
+  text-align: center;
+  height: 10vh;
+  background-color: #003e79;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
   color: #FFFFFF;
-  font-size: 18px;
-  font-family: Cairo;
-  font-weight: 400;
-}
-
-#copy{
-  font-size: 35px;
-}
-
-/* ###################################################### */
-
-/* Responsive */
-@media screen and (max-width: 1770px){
-  .menuicon {
-    margin-right: 2rem;
-    font-size: 2rem;
-    background: none;
-    display: block;
-  }
-  #LINKS, #LINKS a{
-    display: none;
-  }
-  #wrapperSwipper{
-    margin-top: 130px;
-}
-}
-@media screen and (max-width: 800px){
-  #wrapperSwipper{
-      margin-top: 130px;
-  }
-  .menuicon {
-    margin-right: 2rem;
-    font-size: 2rem;
-    background: none;
-    display: block;
-  }
-  #LINKS, #LINKS a{
-    display: none;
-  }
-  .one .innerimage img{
-    display: none;
-  }
-  .one .inner{
-    min-width: 85%;
-  }
-  #d1, #d2, #d3, #d4, #d5, #d6{
-    direction: rtl;
-    min-width: 100%;
-  }
-  .one{
-    min-width: 100%;
-  }
-  #content{
-    flex-direction: column;
-  }
-  #chat{
-    position: fixed;
-    bottom: 10vh;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    z-index: 90;
-    color: #00e46e;
-    gap: 10px;
-  }
-  
-  .i{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: #fff;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-  }
-  
-  .whatsapp{
-    cursor: pointer;
-    color: #00e46e;
-  }
-  
-  #phoneicon{
-    font-size: 80px;
-    padding-top: 10px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #contacts #container{
-    flex-direction: column;
-  }
 }
