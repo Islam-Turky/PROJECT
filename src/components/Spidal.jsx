@@ -4,12 +4,13 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import TagIcon from '@mui/icons-material/Tag';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const actions = [
 { icon: <FacebookIcon />, name: 'Facebook', color: 'blue', route: '#' },
 { icon: <InstagramIcon />, name: 'Instagram', color: 'purple', route: '#' },
-{ icon: <InstagramIcon />, name: 'Whatsapp', color: 'green', route: '#' },
-{ icon: <LocalPhoneIcon />, name: 'Call', color: 'primary', route: 'tel:+201015632015' },
+{ icon: <WhatsAppIcon />, name: 'Whatsapp', color: 'green', route: 'https://api.whatsapp.com/send?phone=201009312469' },
+{ icon: <LocalPhoneIcon />, name: 'Call', color: 'primary', route: 'tel:01009312469' },
 ];
 
 export default function BasicSpeedDial() {
