@@ -61,7 +61,7 @@ const Home = () => {
                 </SwiperSlide>
                     <SwiperSlide>
                         <div className="desc">
-                            <Typography variant='h4' element="h3" >صاينة بوتاجازات</Typography>
+                            <Typography variant='h4' element="h3" >صيانة بوتاجازات</Typography>
                         </div>
                         <img src="/slider3.jpg" alt="" />
                 </SwiperSlide>
