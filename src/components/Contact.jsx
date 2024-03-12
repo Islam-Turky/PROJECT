@@ -3,7 +3,7 @@ import './contact.css'
 const Contact = () => {
     return(
         <>
-        <section className="ftco-section">
+        <section className="ftco-section" >
             <div className="container">
                 <div className="row justify-content-center">
                 </div>
@@ -58,6 +58,17 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="iconContact">
+                <a href="tel:01558730809">
+                    <img src="/We_logo.svg" alt="" />
+                </a>
+                <a href="tel:01200718934">
+                    <img src="/Orange_logo.svg" alt="" />
+                </a>
+                <a href="tel:01284111059">
+                    <img src="/Orange_logo.svg" alt="" />
+                </a>
             </div>
         </section>
         </>

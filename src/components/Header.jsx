@@ -105,22 +105,22 @@ return (
     <Box sx={{ display: 'flex' }}>
     <CssBaseline />
     <AppBar position="fixed" open={open} sx={{
-        background: '#034EA2',
+        background: 'green',
     }}>
-        <Toolbar>
+        <Toolbar >
         <Typography variant="h6" noWrap sx={{ flexGrow: 1, paddingTop: '10px' }} component="div">
-            {/* <a href="/">
+            <a href="/">
                 <img src="/LOGO.webp" alt="logo" width={100}/>
-            </a> */}
+            </a>
         </Typography>
+            <Typography variant='h4' sx={{ color: 'yellow', width: '110%', position: 'fixed', textAlign: 'center' }} >مركز صيانة كريازي</Typography>
         <IconButton
-            // color="inherit"
             aria-label="open drawer"
             edge="end"
             onClick={handleDrawerOpen}
             sx={{ ...(open && { display: 'none' }) }}
         >
-            <MenuIcon sx={{ color: '#fff' }}/>
+        <MenuIcon sx={{ color: '#fff' }}/>
         </IconButton>
         </Toolbar>
     </AppBar>
