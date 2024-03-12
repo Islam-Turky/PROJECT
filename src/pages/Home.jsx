@@ -30,6 +30,13 @@ const Home = () => {
   return(
     <Box>
         <Header />
+        <Box>
+            <div className="secondTopBar">
+                <a href="#contact">تواصل معنا</a>
+                <a href="#who">العلامات التجاريه</a>
+                <a href="#">الرئيسيه</a>
+            </div>
+        </Box>
         {/* main */}
         <Box>
             <Swiper
