@@ -1,6 +1,24 @@
 import './contact.css'
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+        .sendForm('service_4v30bii', 'template_ba4i7zv', form.current, 'lc81kEqoticGcMDeW')
+        .then(
+        () => {
+            alert('تم الإرسال');
+        },
+        (error) => {
+            console.log('FAILED...', error.text);
+        },
+        );
+    };
     return(
         <>
         <section className="ftco-section" >
@@ -18,18 +36,18 @@ const Contact = () => {
                             <div id="form-message-success" className="mb-4">
                             Your message was sent, thank you!
                             </div>
-                            <form method="POST" id="contactForm" name="contactForm" className="contactForm">
+                            <form id="contactForm" name="contactForm" className="contactForm" ref={form} onSubmit={sendEmail}>
                             <div className="row">
                             <div className="col-md-6">
                             <div className="form-group">
                             <label className="label" htmlFor="name">Full Name</label>
-                            <input type="text" className="form-control" name="name" id="name" placeholder="Name"/>
+                            <input type="text" className="form-control" name="user_name" id="name" placeholder="Name"/>
                             </div>
                             </div>
                             <div className="col-md-6">
                             <div className="form-group">
                             <label className="label" htmlFor="email">Email Address</label>
-                            <input type="email" className="form-control" name="email" id="email" placeholder="Email"/>
+                            <input type="email" className="form-control" name="user_email" id="email" placeholder="Email"/>
                             </div>
                             </div>
                             <div className="col-md-12">

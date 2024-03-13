@@ -1,6 +1,6 @@
-import TagIcon from '@mui/icons-material/Tag';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 const actions = [
 { icon: <img src="/Orange_logo.svg" alt="" width="100%" height="100%"/>, name: '01200718934', color: 'purple', route: 'tel:01200718934' },
@@ -13,7 +13,7 @@ export default function BasicSpeedDial() {
         <SpeedDial
             ariaLabel="SpeedDial basic example"
             sx={{ position: 'fixed', bottom: 16, right: 16, color: 'red'}}
-            icon={<TagIcon />}
+            icon={<LocalPhoneIcon />}
         >
             {actions.map((action) => (
                 <SpeedDialAction
