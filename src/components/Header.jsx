@@ -84,19 +84,19 @@ const sideIcons = [
     {
         id: 1,
         name: 'الرئيسيه',
-        route: '#',
+        route: '/',
         icon: <HomeIcon />
     },
     {
         id: 2,
         name: 'العلامات التجاريه',
-        route: '#who',
+        route: '/brands',
         icon: <InfoIcon />
     },
     {
         id: 3,
         name: 'تواصل معنا',
-        route: '#contact',
+        route: '/contact',
         icon: <AlternateEmailIcon />
     },
 ]

@@ -1,5 +1,4 @@
 import { Box, Container, Typography } from '@mui/material';
-// import Header from '../components/Header';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -9,10 +8,7 @@ import './style.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-// import Spidal from '../components/Spidal';
-// import Typography from '@mui/material';
 import Who from '../components/Who';
-// import Footer from '../components/Footer';
 import Contact from '../components/Contact';
 
 const Home = () => {
