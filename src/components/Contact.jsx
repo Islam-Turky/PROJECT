@@ -22,6 +22,7 @@ const Contact = () => {
     return(
         <>
         <section className="ftco-section" >
+        <div className='divider'></div>
             <div className="container">
                 <div className="row justify-content-center">
                 </div>
