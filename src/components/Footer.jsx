@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="el">
                     <PhonelinkRingIcon sx={{ fontSize: '100px', color: 'rgb(30, 127, 255)' }}/>
                     <Typography variant="h5" sx={{ color: 'white', textAlign: 'center' }}>رقم الهاتف</Typography>
-                    <Typography variant="subtitle1">01061755679</Typography>
+                    <a href="tel:01558730809" style={{ textDecoration: 'none', color: 'blue' }}><Typography variant="subtitle1">01558730809</Typography></a>
                 </div>
                 <div className="el">
                     <AccessTimeIcon sx={{ fontSize: '100px', color: 'rgb(30, 127, 255)' }}/>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="el">
                     <LocationOnIcon sx={{ fontSize: '100px', color: 'rgb(30, 127, 255)' }}/>
                     <Typography variant="h5" sx={{ color: 'white', textAlign: 'center' }}>خدمتنا</Typography>
-                    <Typography variant="subtitle1">خدماتنا بالقاهرة والجيزة والقليوبية</Typography>
+                    <Typography variant="subtitle1">خدماتنا بالقاهرة والجيزة والقليوبية و الغربيه</Typography>
                 </div>
             </Box>
             <Divider />
