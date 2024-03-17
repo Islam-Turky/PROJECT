@@ -64,7 +64,7 @@
 }
 
 #who{
-  height: 100vh;
+  /* height: 100vh; */
   padding: 10px;
   margin: 0 auto;
 }
@@ -118,6 +118,8 @@
   color: #FFFFFF;
   display: flex;
   padding: 10px;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .iconContact{

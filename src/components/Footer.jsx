@@ -26,8 +26,8 @@ const Footer = () => {
             </Box>
             <Divider />
             <Box id="dv">
-                <Typography variant="p" sx={{ textAlign: 'right', flex: 1 }}>Powered by كريازي لصيانة الاجهزة المنزلية-الصيانة بالمنزل وبالضمان</Typography>
-                <Typography variant="p" sx={{ textAlign: 'right', flex: 1 }}>احصل علي تجربة رائعة مع خدمة الصيانة بالمنزل</Typography>
+                <Typography variant="p" sx={{ textAlign: 'right' }}>Powered by كريازي لصيانة الاجهزة المنزلية-الصيانة بالمنزل وبالضمان</Typography>
+                <Typography variant="p" sx={{ textAlign: 'right' }}>احصل علي تجربة رائعة مع خدمة الصيانة بالمنزل</Typography>
             </Box>
         </>
     )
