@@ -70,7 +70,7 @@ const sideIcons = [
     {
         id: 2,
         name: 'من نحن ؟',
-        route: '/kiriazi',
+        route: '#prod',
         icon: <InfoIcon />
     },
     {
