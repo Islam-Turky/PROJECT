@@ -53,13 +53,6 @@ const Home = () => {
                 </SwiperSlide>
             </Swiper>
         </Box>
-        <Box sx={{ background: 'black', height: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div>
-                <a href="tel:01558730809">
-                    <Typography variant='h5' sx={{ textAlign: 'center', fontWeight: 'bold', background: 'black', color: 'white', height: '5vh' }}>اتصل بنا تجدنا اينما كنتم 01558730809</Typography>
-                </a>
-            </div>
-        </Box>
         <Kiriazi />
         <div className='divider' style={{ marginTop: '100px' }}></div>
         <div id='prod' style={{ marginTop: '100px' }}></div>
